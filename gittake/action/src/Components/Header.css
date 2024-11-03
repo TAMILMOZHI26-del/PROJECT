@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .donate-button, .action-button, .menu-button {
+    margin: 10 30px;
+    background-color: rgb(68, 95, 119);
+  }
+  .action-button {
+    background-color: yellow;
+  }

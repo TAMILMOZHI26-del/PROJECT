@@ -1,0 +1,178 @@
+/* Main Projects Section Styling */
+.projects-section {
+  font-size: 2em;
+  padding: 90px 200px;
+  background-color: #fff;
+}
+
+/* Title and Paragraph Container */
+.title-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.upcoming {
+  color: #333;
+}
+
+.projects {
+  color: #1a1919;
+}
+
+/* Updated Paragraph Container */
+.paragraph-container {
+  font-size: 0.5em;
+  line-height: 1.2;
+  color: #777474;
+  max-width: 450px;
+  margin-left: 90px; /* Shift the paragraph to the right */
+  gap: -10px;
+}
+
+/* Projects List */
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  color: rgb(68, 90, 129);
+}
+
+.project-item {
+  padding: 13px;
+  font-size: 0.7em;
+  font-weight: bold;
+  color: #417992;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.project-title {
+  font-weight: bold;
+  line-height: 1.1;
+  text-align: left;
+}
+
+.description-heading {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #3a3a3a;
+  margin: 10px 0;
+}
+
+.project-description {
+  font-size: 0.8em;
+  color: #1b1a1a;
+  font-weight: lighter;
+}
+
+.region-container {
+  background-color: #e0f0f7;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  display: inline-block;
+  color: #3a3a3a;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+/* Specific Spacing Adjustment for Project Item 2 */
+.project-item:nth-child(2) .description-heading {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+/* Impact Container Styling */
+.impact-container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-color: #f5f5f8;
+  border: 2px solid black;
+  margin-top: 30px;
+  font-size: 1em;
+}
+
+/* Adjust the spacing for Make and Impact */
+.impact-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.make {
+  margin-left: 20px;
+}
+
+.impact {
+  margin-left: 18px;
+}
+
+/* Impact Paragraph */
+.impact-paragraph {
+  font-size: 0.4em;
+  color: #555;
+  max-width: 400px;
+  line-height: 1.8;
+  text-align: justify;
+  text-align-last: left;
+  margin-left: auto;
+  margin-top: -150px;
+  word-spacing: 0.05em;
+  margin-bottom: 10px;
+}
+
+/* Impact Details Fields Container */
+.impact-details-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+/* Each Detail Row */
+/* Each Detail Row with Reduced Padding */
+/* Each Detail Row with Thinner Border */
+/* Compact Each Detail Row */
+/* Compact Each Detail Row */
+/* Compact Each Detail Row */
+.details-row {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0; /* Reduced padding */
+  line-height: 1.2; /* Reduced line height */
+  border-bottom: 0.5px solid #333; /* Thinner border */
+  position: relative;
+}
+
+/* Label for Each Field */
+.details-label {
+  font-size: 0.45em; /* Smaller font size for regular labels */
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 2px; /* Reduced margin */
+}
+
+/* Larger Font for HOW CAN HELP YOU without moving position */
+.details-label.special-title {
+  font-size: 1em; /* Larger font size for emphasis */
+  font-weight: bold;
+  color: #333; /* Adjust color if needed */
+}
+
+/* Helper Text with Smaller Font and Position Adjustment */
+.helper-text {
+  font-size: 0.35em; /* Smaller font size */
+  color: #777;
+  position: absolute;
+  top: -10px; /* Adjusted position */
+  right: 0;
+  background-color: #f5f5f8;
+  padding: 0 50px; /* Smaller padding */
+}

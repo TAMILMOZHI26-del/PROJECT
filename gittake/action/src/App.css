@@ -1,0 +1,41 @@
+.login-container.home-container {
+  margin: 0 auto;
+  padding: 1000px;
+  max-width: 400px;
+  text-align: left;
+}
+
+form div {
+  margin-bottom: 900px;
+}
+
+button {
+  padding: 30px 25px;
+  background-color: #17ec4c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fdf8f8;
+}
+
+nav ul li a:hover {
+  color: #e2e5e7;
+}
